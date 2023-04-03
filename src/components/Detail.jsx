@@ -1,11 +1,5 @@
-import React, {  useEffect } from 'react'
-
-
+import React from 'react';
 const Detail = () => {
-
-  useEffect(() => {
-    
-   },)
 
   return (
     <div>
@@ -13,7 +7,6 @@ const Detail = () => {
     </div>
   )
 }
-
 export default Detail;
 
 
