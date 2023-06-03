@@ -33,9 +33,9 @@ return (
           <Nav.Link className="text-light" href="/">
             Home
           </Nav.Link>
-          <Nav.Link className="text-light" href="#action2">
+         {/*  <Nav.Link className="text-light" href="#action2">
             Contacto
-          </Nav.Link>
+          </Nav.Link> */}
           <Nav.Link className="text-muted" href="#action2" disabled>
             {" "}
             {diasEnString()} {fecha} {month()} {props.year}
