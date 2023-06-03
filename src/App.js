@@ -1,12 +1,10 @@
-import React, { useEffect, useState } from 'react'
+//import React, { useEffect, useState } from 'react'
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Main from './components/Main';
 import Detail from './components/Detail'
 import './App.css';
-import axios from 'axios';
-
 
 function App() {
   const year = new Date().getFullYear();
@@ -18,7 +16,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Main/>} ></Route>
-        <Route path="/detail/" element={<Detail />} ></Route>
+        <Route path="/detail/:id" element={<Detail />} ></Route>
       </Routes>
     </Router>
      <Footer/>
