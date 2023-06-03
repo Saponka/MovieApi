@@ -8,7 +8,7 @@ const Footer = ()=>{
           id:1,name:"Home",url:"/home"
         },
         {
-            id:2,name:"Contacto",url:"/contacto"
+            id:2,name:"Contacto",url:"/https://www.linkedin.com/in/franco-ezequiel-herrera-ruiz-553876239/"
         },
         {
             id:3,name:"About",url:"/about"
@@ -20,10 +20,10 @@ const Footer = ()=>{
 
     return (
       <div
-        style={{ height: "70px" }}
-        className="d-grid align-items-center bg-dark text-light fixed-bottom "
+        style={{ } }
+        className="d-grid align-items-center bg-dark text-light fixed-bottom   "
       >
-        <Row style={{ margin: "auto" }}>
+        <Row style={ { justifyContent: "space-between"}} className="mt-3">
           <Col xs={3} md={3} lg={3} className="d-flex justify-content-center  ">
             {" "}
             <a href="/">
@@ -65,7 +65,7 @@ const Footer = ()=>{
               </svg>
             </a>{" "}
           </Col>
-          <Col xs={3} md={3} lg={3} className="d-flex justify-content-center">
+       {/*    <Col xs={3} md={3} lg={3} className="d-flex justify-content-center">
             {" "}
             <a href="/contacto">
               <svg
@@ -79,7 +79,7 @@ const Footer = ()=>{
                 <path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
               </svg>
             </a>{" "}
-          </Col>
+          </Col> */}
           <Col xs={3} md={3} lg={3} className="d-flex justify-content-center">
             <a href="https://github.com/Saponka/" target="blank">
               <svg
@@ -96,7 +96,7 @@ const Footer = ()=>{
           </Col>
         </Row>
 
-        <div className="text-center">©Franco Herrera Ruiz {year}</div>
+        <div className="text-center mt-5">©Franco Herrera Ruiz {year}</div>
       </div>
     );
     
