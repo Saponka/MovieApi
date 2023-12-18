@@ -60,8 +60,8 @@ const Main = ()=>{
                   className="bg-primary text-center text-light"
                   style={{ borderRadius: "10px",height: "28rem" }}
                 >
-                  <h1 className="mt-5">BuscaPeli O'Matic 3000</h1>
-                  <h1 style={{ marginTop: "100px" }}>Podes Buscar la que mas te guste</h1>
+                  <h1 className="mt-5">MovieSearch O'Matic</h1>
+                  <h1 style={{ marginTop: "100px" }}>Puedes Buscar las Peliculas que mas te gusten</h1>
                   <h6>Desde Movies API puedes encontrar un gran catalogo de peliculas</h6>
                 </Container>
             ) : (
