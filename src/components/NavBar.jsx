@@ -21,7 +21,7 @@ return (
   <Navbar expand="lg" className=" bg-dark text-light sticky-top">
     <Container fluid>
       <Navbar.Brand className="text-primary" href="#">
-        BuscaPeli-O'Matic
+        Movie-O'Matic
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
       <Navbar.Collapse id="navbarScroll">
