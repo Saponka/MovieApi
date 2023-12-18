@@ -21,7 +21,7 @@ const Footer = ()=>{
     return (
       <div
         style={{ } }
-        className="d-grid align-items-center bg-dark text-light fixed-bottom   "
+        className="d-grid align-items-center bg-dark text-light "//fixed-bottom
       >
         <Row style={ { justifyContent: "space-between"}} className="mt-3">
           <Col xs={3} md={3} lg={3} className="d-flex justify-content-center  ">
